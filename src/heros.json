@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Thanos",
+        "image": "https://vignette.wikia.nocookie.net/marveldatabase/images/a/a7/Thanos_%28Earth-12041%29_from_Marvel%27s_Avengers_Assemble_Season_2_12_001.png/revision/latest?cb=20160408233716"
+    },
+    {
+        "id": 2,
+        "name": "Iron Man",
+        "image": "https://vignette.wikia.nocookie.net/marveldatabase/images/7/74/Iron_Man_MK_42_Armor_-_Marvel_Avengers_Alliance_%282%29.png/revision/latest?cb=20160505084907"
+    },
+    {
+        "id": 3,
+        "name": "Captain America",
+        "image": "https://cdn.vox-cdn.com/thumbor/Z4yyRrPenLpg0ExhHpetrveJiuY=/0x0:2034x1356/1200x800/filters:focal(0x0:2034x1356)/cdn.vox-cdn.com/uploads/chorus_image/image/46293074/Avengers254d1158022f16-2040.0.0.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Thor",
+        "image": "https://vignette.wikia.nocookie.net/avengersalliance/images/1/1d/Avengers_Thor_Right_Portrait_Art.png/revision/latest?cb=20130629135340"
+    },
+    {
+        "id": 5,
+        "name": "Black Widow",
+        "image": "https://static.comicvine.com/uploads/original/9/93477/2544794-the_avengers_black_widow_1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hulk",
+        "image": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/06/15/Pictures/_1caf1900-7098-11e8-bbf6-b72314b60444.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Star-Lord",
+        "image": "https://assets2.ignimgs.com/2014/11/12/guardians-chrispratt-1280ajpg-bc1754_400w.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Gamora",
+        "image": "https://img.cinemablend.com/cb/0/8/8/5/3/6/088536673e7d92d183fcc584f26c5603577ec5886c9f8978e7e49ac9f131bcf5.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Ant Man",
+        "image": "https://starfriday.files.wordpress.com/2015/06/paul-rudd-as-antman.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Spiderman",
+        "image": "https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/06/spider-man-ps4-game.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Wolverine",
+        "image": "https://cdna.artstation.com/p/assets/images/images/013/756/720/large/sadece-kaan-x-men-wolverine-03-march-2017.jpg?1540993712"
+    },
+    {
+        "id": 12,
+        "name": "Deadpool",
+        "image": "https://ksassets.timeincuk.net/wp/uploads/sites/55/2018/05/Deadpool-920x584.jpg"
+    }
+]
