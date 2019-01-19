@@ -4,8 +4,8 @@ import Header from "./components/Header";
 import Characters from "./components/HeroCard/HeroCard";
 import Wrapper from "./components/Wrapper/Wrapper";
 import characters from "./heros.json";
+import ReactModal from "react-modal";
 // import ReactDOM from 'react-dom';
-// import Modal from './components/ModalWin';
 
 // shuffle function from stackoverflow
 function shuffle(array) {
@@ -98,6 +98,9 @@ class App extends Component {
             />
           ))}
         </Wrapper>
+        <ReactModal>
+
+        </ReactModal>
       </div>
     )
   }
