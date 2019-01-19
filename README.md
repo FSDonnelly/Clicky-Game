@@ -1,3 +1,22 @@
+# Marvel's Heros Clicky Game
+
+
+### Overview
+
+This app is a memory game with React. This project required me to break up my application's UI into components, manage component state, and respond to user events. It's made by following up the instruction below: 
+
+1. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
+
+2. The application will render different images to the screen. Each image will listen for click events.
+
+3. The application will keep track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
+
+4. Every time an image is clicked, the images rendered to the page will shuffle themselves in a random order.
+
+5. Once the user's score is reset after an incorrect guess, the game will restart.
+
+![Image](public/img/Capture.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
