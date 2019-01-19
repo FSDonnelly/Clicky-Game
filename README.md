@@ -15,7 +15,7 @@ This app is a memory game with React. This project required me to break up my ap
 
 5. Once the user's score is reset after an incorrect guess, the game will restart.
 
-![Image](public/img/Capture.png)
+![Image](public\img\Capture.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
