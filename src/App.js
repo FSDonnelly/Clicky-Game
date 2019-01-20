@@ -5,6 +5,7 @@ import Characters from "./components/HeroCard/HeroCard";
 import Wrapper from "./components/Wrapper/Wrapper";
 import characters from "./heros.json";
 import ReactModal from "react-modal";
+import Modal from "./components/Modal";
 // import ReactDOM from 'react-dom';
 
 // shuffle function from stackoverflow
