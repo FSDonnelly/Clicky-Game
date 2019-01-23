@@ -4,9 +4,6 @@ import Header from "./components/Header";
 import Characters from "./components/HeroCard/HeroCard";
 import Wrapper from "./components/Wrapper/Wrapper";
 import characters from "./heros.json";
-import ReactModal from "react-modal";
-import Modal from "./components/Modal";
-// import ReactDOM from 'react-dom';
 
 // shuffle function from stackoverflow
 function shuffle(array) {
@@ -24,6 +21,7 @@ class App extends Component {
     characters,
     score: 0,
     topScore: 0,
+    showAlert: 0,
     clickedCharacters: []
   };
 
@@ -32,7 +30,10 @@ class App extends Component {
     let clickedCharacters = this.state.clickedCharacters;
     let score = this.state.score;
     let topScore = this.state.topScore;
-
+    this.setState({
+      showAlert: 0
+    });
+    
     // if the clicked image has an id of the indexed characters
     if (clickedCharacters.indexOf(id) === -1) {
       // push that id into that id into the array to be stored
@@ -54,7 +55,10 @@ class App extends Component {
         clickedCharacters: []
       });
       console.log("duplicate")
-      alert("Sorry you clicked the same person twice, start over")
+      this.setState({
+        showAlert: 1
+      });
+  
     }
 
     if (score > topScore) {
@@ -88,6 +92,8 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <Header />
+        <div className="alert alert-danger" style={{opacity: this.state.showAlert}}>Sorry you clicked the same person twice, start over</div>
+        {/* <div className="alert alert-success" style={{opacity: this.state.score === 12 ? 0 : this.state.showAlert}}>You win, you clicked each character with out clicking doubles</div> */}
         <Wrapper>
           {this.state.characters.map(character => (
             <Characters 
@@ -98,10 +104,11 @@ class App extends Component {
               clickedImage={this.clickedImage}
             />
           ))}
+          
         </Wrapper>
-        <ReactModal>
 
-        </ReactModal>
+
+        
       </div>
     )
   }
