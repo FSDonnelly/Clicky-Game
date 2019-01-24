@@ -22,6 +22,7 @@ class App extends Component {
     score: 0,
     topScore: 0,
     showAlert: 0,
+    showSuccess: 0,
     clickedCharacters: []
   };
 
@@ -44,8 +45,9 @@ class App extends Component {
       // run the reshuffle function after each click
       this.makeShuffle();
     } else if (this.state.score === 12) {
-      alert("You win, you clicked each character with out clicking doubles")
+      // alert("You win, you clicked each character with out clicking doubles")
       this.setState({
+        showSuccess: 1,
         score: 0,
         clickedCharacters: []
       });
@@ -93,7 +95,7 @@ class App extends Component {
         />
         <Header />
         <div className="alert alert-danger" style={{opacity: this.state.showAlert}}>Sorry you clicked the same person twice, start over</div>
-        {/* <div className="alert alert-success" style={{opacity: this.state.score === 12 ? 0 : this.state.showAlert}}>You win, you clicked each character with out clicking doubles</div> */}
+        <div className="alert alert-success" style={{opacity: this.state.showSuccess }}>You win, you clicked each character with out clicking doubles</div>
         <Wrapper>
           {this.state.characters.map(character => (
             <Characters 
