@@ -1,5 +1,11 @@
 # Marvel's Heros Clicky Game
 
+Vist the Marvels Hero Clicky Game at https://marvels-heros-clicky-game.herokuapp.com/
+# Instructions
+
+1. Click on an image to increase your score
+2. Don't click on the same image twice or the round will end.
+3. Click on all 12 images without clicking the same image twice and you win!
 
 ### Overview
 
